@@ -1,0 +1,44 @@
+.text-decoration-none {
+    text-decoration: none;
+  }
+  .sign-up a {
+    color: $secondary-color;
+    font-size: 16px;
+    font-weight: 500;
+  
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl {
+      max-width: 1140px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .footer .info {
+      width: 100% !important;
+      text-align: center;
+    }
+    .footer .furniture, .footer .services {
+      width: 268px;
+    }
+    .footer .col {
+      width: 248px;
+    }
+  }
+  
+  @media only screen and (max-width: 950px) {
+    // Adjust styles for smaller screens
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .login {
+      margin: 20px 0px 0px 0px;
+      padding: 2rem;
+    }
+    .email button {
+      padding: 11px 12px;
+    }
+  }

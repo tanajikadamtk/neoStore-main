@@ -1,0 +1,563 @@
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Gotham";
+}
+
+body {
+  color: #706a6a;
+  background: #fff;
+  font-family: "Gotham";
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+figure,
+blockquote {
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+.col-md-6,
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+button,
+input {
+  font-family: "Gotham";
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/Gotham-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamBook.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamMedium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamBook.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1470px;
+  width: 100%;
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.col-md-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+.center {
+  text-align: center;
+}
+.align-self-center {
+  align-self: center;
+}
+.neoStore {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+.heading {
+  padding: 20px 0px;
+}
+.login,
+.signup {
+  box-shadow: 0px 0px 15px 2px #0000000f;
+  border-radius: 20px;
+  width: 451px;
+  height: 547px;
+  padding: 62px 39px;
+}
+.signup {
+  width: 480px;
+  height: 671px;
+}
+.text-red {
+  color: #e91b1a;
+}
+.text-white {
+  color: white;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.justify-content {
+  justify-content: end;
+}
+.login-text {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+form .input-text {
+  color: #666666;
+  font-weight: 700;
+}
+form .password {
+  margin-top: 16px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  color: #696969;
+  height: 48px;
+  padding: 15px;
+}
+.email-input input,
+.password input {
+  margin-top: 14px;
+}
+.form-check-input {
+  width: 18px;
+  height: 18px;
+}
+input:focus-visible {
+  outline: none;
+}
+input[type="checkbox"] {
+  accent-color: #bb0100;
+}
+.form-check-label {
+  margin-left: 7px;
+}
+.submit-button {
+  width: 271px;
+  height: 36px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: #bb0100;
+  border-radius: 3px;
+}
+.submit-button:hover,
+.email button:hover {
+  background: #fff;
+  color: #bb0100;
+  border: 1px solid #bb0100;
+  transition: background-color 0.3s ease;
+}
+.sign-up {
+  margin-top: 38px;
+}
+.sign-up span {
+  color: #4f4f4f;
+}
+.sign-up a {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sign-up a:hover {
+  color: #bb0100;
+}
+.text-end {
+  text-align: end;
+}
+.forgot_password {
+  color: #585858;
+  font-size: 12px;
+  display: block;
+  text-align: end;
+  margin-top: 8px;
+}
+.forgot_password:hover {
+  transform: scale(1.01);
+  transition: transform 500ms ease-in-out, color 500ms ease-in-out;
+  color: hsl(0deg, 100%, 37%);
+}
+.forgot:hover {
+  color: #000000;
+}
+.footer {
+  background-color: #070617;
+  margin-top: 2rem;
+}
+.footer .neoStore {
+  margin-bottom: 20px;
+}
+.email {
+  padding-top: 20px;
+  display: inline-block;
+}
+.email button {
+  background: #bb0100;
+  color: #fff;
+  padding: 12px;
+  margin: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid #bb0100;
+}
+.email input[type="text"]::placeholder {
+  color: #bb0100;
+}
+.email .fa-envelope {
+  color: #bb0100;
+}
+.form_subscribe {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding-left: 13px;
+  background: white;
+}
+.form_subscribe input {
+  border: 0;
+  padding-inline: 8px;
+}
+.form_subscribe input:focus {
+  outline: none;
+}
+.form_subscribe input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .info .comp-name {
+  padding: 0px 0px 20px 0px;
+}
+.footer .info {
+  width: 430px !important;
+}
+.footer .col {
+  width: 143px;
+  /* height: auto;
+  float: left;
+  box-sizing: border-box; */
+  padding: 34px 0px;
+}
+.footer .services,
+.footer .furniture {
+  width: 197px;
+}
+.services,
+.furniture,
+.categories,
+.links {
+  margin-top: 12px;
+}
+.footer .col h3 {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  color: #fff;
+}
+.footer .col ul {
+  list-style-type: none;
+}
+.footer .col ul li {
+  color: #fff;
+  padding-bottom: 27px;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+.footer .col ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer .col ul li a:hover {
+  color: #7f7f7f;
+}
+.contact h5 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.contact span {
+  margin: 0px 15px;
+}
+.contact div {
+  padding-top: 20px;
+}
+.contact a:hover {
+  color: #7f7f7f;
+}
+.social-icons .fa {
+  color: #fff;
+  background: #7f7f7f;
+  padding: 6px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  text-align: center;
+}
+.social-icons .fa:hover {
+  background: #4e4e4e;
+}
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+}
+.top-bar,
+.bottom-bar {
+  background: #bb0100;
+  color: #fff;
+  text-align: center;
+  padding: 14px;
+  font-weight: 400;
+}
+.bottom-bar {
+  padding: 18px;
+}
+.top-bar a:hover {
+  color: #000000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.terms-and-conditions {
+  margin-top: 31px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 1200px) {
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: 1140px;
+    
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .footer .info {
+    width: 100% !important;
+    text-align: center;
+  }
+  .footer .furniture,
+  .footer .services {
+    width: 268px;
+  }
+  .footer .col {
+    width: 248px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .col-md-6,
+  .col-md-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .image {
+    display: none;
+  }
+  .footer .col {
+    width: 25%;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+  .heading {
+    text-align: center;
+  }
+  .justify-content {
+    justify-content: center;
+  }
+  .login,
+  .signup {
+    margin-top: 20px;
+  }
+  .social-icons {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .submit-button {
+    width: -webkit-fill-available;
+  }
+  .comp-name {
+    text-align: center;
+  }
+  .signup {
+    height: 615px;
+    padding: 38px 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .top-bar {
+    font-size: 13px;
+  }
+  .footer .col {
+    width: 50%;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .login {
+    margin: 20px 0px 0px 0px;
+    padding: 2rem;
+  }
+  .email button {
+    padding: 11px 12px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+    text-align: center;
+  }
+  input[type="password"],
+  input[type="text"] {
+    padding: 14px 0px;
+  }}
+
+/* signup-card.css */
+
+.signup {
+  width: 100%;
+  max-width: 480px;
+  padding: 2rem;
+  margin: 0 auto;
+  box-shadow: 0px 0px 15px 2px #0000000f;
+  border-radius: 20px;
+}
+
+.login-text {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-form {
+  margin: 2rem 0;
+}
+
+.email-input input {
+  width: 100%;
+  height: 48px;
+  padding: 15px;
+  margin-top: 14px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.terms-and-conditions {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.form-check-input {
+  width: 18px;
+  height: 18px;
+  margin-right: 7px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 36px;
+  margin-top: 2rem;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .signup {
+    max-width: 100%;
+  }
+
+  .login-text {
+    font-size: 20px;
+  }
+
+  .email-input input {
+    padding: 12px;
+  }
+}

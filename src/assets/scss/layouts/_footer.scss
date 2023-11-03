@@ -1,0 +1,23 @@
+.footer_wrap{
+    background-color: black;
+}
+.footer_email{
+    display: flex;
+    background-color: white;
+    padding: 1px;
+    justify-content: space-between;
+    margin-top: 33px;
+    
+    .footer_input{
+        outline: none;
+        border: none;
+    }
+}
+.footer-logo_wrap{
+    padding-top: 31px;
+    width: 179px;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}

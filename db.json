@@ -1,0 +1,38 @@
+{
+  "signup": [
+    {
+      "id": 1,
+      "firstname": "json-server1",
+      "lastname": "abc",
+      "email": "abc@gmail.com",
+      "password": "123",
+      "subdata": [
+        {
+          "id": 11,
+          "firstname": "sub-data1",
+          "lastname": "sub-data11",
+          "email": "subdata@gmail.com",
+          "password": "123"
+        }
+      ]
+    },
+    {
+      "firstname": "Rutuja",
+      "lastname": "Dond",
+      "email": "rutujadond@gmail.com",
+      "password": "Rutuja@123",
+      "agreedToTerms": true,
+      "": true,
+      "id": 2
+    },
+    {
+      "firstname": "Rutu",
+      "lastname": "Dond",
+      "email": "test@gmail.com",
+      "password": "rututest",
+      "agreedToTerms": true,
+      "": true,
+      "id": 3
+    }
+  ]
+}

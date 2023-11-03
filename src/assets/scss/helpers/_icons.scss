@@ -1,0 +1,436 @@
+@import "variables";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $icon-icon-future-development-path1: "\e935";
+// $icon-icon-future-development-path2: "\e936";
+// $icon-parking-square: "\e934";
+// $icon-pdf: "\e933";
+// $icon-call-filled: "\e932";
+// $icon-download: "\e931";
+// $icon-map-location: "\e930";
+// $icon-down-arrow-path1: "\e92c";
+// $icon-down-arrow-path2: "\e92d";
+// $icon-down-arrow-path3: "\e92e";
+// $icon-down-arrow-path4: "\e92f";
+// $icon-phone-circle: "\e92b";
+// $icon-arrow-right: "\e937";
+// $icon-modal-close-path1: "\e929";
+// $icon-modal-close-path2: "\e92a";
+// $icon-clock: "\e927";
+// $icon-location1: "\e928";
+// $icon-next: "\e925";
+// $icon-prev: "\e926";
+// $icon-balcony: "\e923";
+// $icon-view-tour: "\e924";
+// $icon-basketball: "\e921";
+// $icon-call: "\e922";
+// $icon-bath: "\e919";
+// $icon-bed: "\e91a";
+// $icon-grid: "\e91b";
+// $icon-letter: "\e91c";
+// $icon-bag: "\e91d";
+// $icon-location: "\e91e";
+// $icon-right-arrow: "\e91f";
+// $icon-air: "\e920";
+// $icon-badminton: "\e906";
+// $icon-central-walk: "\e907";
+// $icon-changing-facilities: "\e908";
+// $icon-child-pool: "\e909";
+// $icon-climbing: "\e90a";
+// $icon-Courtyards: "\e90b";
+// $icon-gym: "\e90c";
+// $icon-Jogging-track: "\e90d";
+// $icon-mosque: "\e90e";
+// $icon-nursery: "\e90f";
+// $icon-open-lawn: "\e910";
+// $icon-outdoor-gym: "\e911";
+// $icon-parking: "\e912";
+// $icon-Parking-Entrance: "\e913";
+// $icon-play-area: "\e914";
+// $icon-pool: "\e915";
+// $icon-retails: "\e916";
+// $icon-Seating-Area: "\e917";
+// $icon-supermarket: "\e918";
+// $icon-hat-green: "\e905";
+// $icon-midtown-icon-path1: "\e903";
+// $icon-midtown-icon-path2: "\e904";
+// $icon-plus: "\e902";
+// $icon-close: "\e901";
+// $icon-graduation-hat: "\e900";
+
+
+// @font-face {
+//   font-family: '#{$icomoon-font-family}';
+//   src:  url('#{$font-path}/#{$icomoon-font-family}.eot?rjy84q');
+//   src:  url('#{$font-path}/#{$icomoon-font-family}.eot?rjy84q#iefix') format('embedded-opentype'),
+//     url('#{$font-path}/#{$icomoon-font-family}.ttf?rjy84q') format('truetype'),
+//     url('#{$font-path}/#{$icomoon-font-family}.woff?rjy84q') format('woff'),
+//     url('#{$font-path}/#{$icomoon-font-family}.svg?rjy84q##{$icomoon-font-family}') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
+
+// [className^="icon-"], [className*=" icon-"] {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: 'icomoon' !important;
+//   speak: never;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// .icon-icon-future-development .path1 {
+//   &:before {
+//     content: $icon-icon-future-development-path1;  
+//     color: rgb(168, 155, 133);
+//   }
+// }
+// .icon-icon-future-development .path2 {
+//   &:before {
+//     content: $icon-icon-future-development-path2;  
+//     margin-left: -1em;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-parking-square {
+//   &:before {
+//     content: $icon-parking-square;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-pdf {
+//   &:before {
+//     content: $icon-pdf;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-call-filled {
+//   &:before {
+//     content: $icon-call-filled; 
+//   }
+// }
+// .icon-download {
+//   &:before {
+//     content: $icon-download; 
+//   }
+// }
+// .icon-map-location {
+//   &:before {
+//     content: $icon-map-location;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-down-arrow .path1 {
+//   &:before {
+//     content: $icon-down-arrow-path1;  
+//     color: rgb(96, 125, 139);
+//   }
+// }
+// .icon-down-arrow .path2 {
+//   &:before {
+//     content: $icon-down-arrow-path2;  
+//     margin-left: -1em;  
+//     color: rgb(96, 125, 139);
+//   }
+// }
+// .icon-down-arrow .path3 {
+//   &:before {
+//     content: $icon-down-arrow-path3;  
+//     margin-left: -1em;  
+//     color: rgb(0, 0, 0);
+//   }
+// }
+// .icon-down-arrow .path4 {
+//   &:before {
+//     content: $icon-down-arrow-path4;  
+//     margin-left: -1em;  
+//     color: rgb(0, 0, 0);
+//   }
+// }
+
+// .icon-phone-circle {
+//   &:before {
+//     content: $icon-phone-circle; 
+//   }
+// }
+// .icon-arrow-right {
+//   &:before {
+//     content: $icon-arrow-right; 
+//   }
+// }
+// .icon-modal-close .path1 {
+//   &:before {
+//     content: $icon-modal-close-path1;  
+//     color: rgb(80, 153, 215);
+//   }
+// }
+// .icon-modal-close .path2 {
+//   &:before {
+//     content: $icon-modal-close-path2;  
+//     margin-left: -1em;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-clock {
+//   &:before {
+//     content: $icon-clock;     
+//     color: #41a965;
+//   }
+// }
+// .icon-location1 {
+//   &:before {
+//     content: $icon-location1;     
+//     color: #41a965;
+//   }
+// }
+// .icon-next {
+//   &:before {
+//     content: $icon-next; 
+//   }
+// }
+// .icon-prev {
+//   &:before {
+//     content: $icon-prev; 
+//   }
+// }
+// .icon-balcony {
+//   &:before {
+//     content: $icon-balcony;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-view-tour {
+//   &:before {
+//     content: $icon-view-tour;     
+//     color: #fff;
+//   }
+// }
+// .icon-basketball {
+//   &:before {
+//     content: $icon-basketball; 
+//   }
+// }
+// .icon-call {
+//   &:before {
+//     content: $icon-call;     
+//     color: #fff;
+//   }
+// }
+// .icon-bath {
+//   &:before {
+//     content: $icon-bath;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-bed {
+//   &:before {
+//     content: $icon-bed;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-grid {
+//   &:before {
+//     content: $icon-grid;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-letter {
+//   &:before {
+//     content: $icon-letter;     
+//     color: #5099d7;
+//   }
+// }
+// .icon-bag {
+//   &:before {
+//     content: $icon-bag; 
+//   }
+// }
+// .icon-location {
+//   &:before {
+//     content: $icon-location; 
+//   }
+// }
+// .icon-right-arrow {
+//   &:before {
+//     content: $icon-right-arrow;     
+//     color: #fff;
+//   }
+// }
+// .icon-air {
+//   &:before {
+//     content: $icon-air; 
+//   }
+// }
+// .icon-badminton {
+//   &:before {
+//     content: $icon-badminton; 
+//   }
+// }
+// .icon-central-walk {
+//   &:before {
+//     content: $icon-central-walk; 
+//   }
+// }
+// .icon-changing-facilities {
+//   &:before {
+//     content: $icon-changing-facilities; 
+//   }
+// }
+// .icon-child-pool {
+//   &:before {
+//     content: $icon-child-pool; 
+//   }
+// }
+// .icon-climbing {
+//   &:before {
+//     content: $icon-climbing; 
+//   }
+// }
+// .icon-Courtyards {
+//   &:before {
+//     content: $icon-Courtyards; 
+//   }
+// }
+// .icon-gym {
+//   &:before {
+//     content: $icon-gym; 
+//   }
+// }
+// .icon-Jogging-track {
+//   &:before {
+//     content: $icon-Jogging-track; 
+//   }
+// }
+// .icon-mosque {
+//   &:before {
+//     content: $icon-mosque; 
+//   }
+// }
+// .icon-nursery {
+//   &:before {
+//     content: $icon-nursery; 
+//   }
+// }
+// .icon-open-lawn {
+//   &:before {
+//     content: $icon-open-lawn; 
+//   }
+// }
+// .icon-outdoor-gym {
+//   &:before {
+//     content: $icon-outdoor-gym; 
+//   }
+// }
+// .icon-parking {
+//   &:before {
+//     content: $icon-parking; 
+//   }
+// }
+// .icon-Parking-Entrance {
+//   &:before {
+//     content: $icon-Parking-Entrance; 
+//   }
+// }
+// .icon-play-area {
+//   &:before {
+//     content: $icon-play-area; 
+//   }
+// }
+// .icon-pool {
+//   &:before {
+//     content: $icon-pool; 
+//   }
+// }
+// .icon-retails {
+//   &:before {
+//     content: $icon-retails; 
+//   }
+// }
+// .icon-Seating-Area {
+//   &:before {
+//     content: $icon-Seating-Area; 
+//   }
+// }
+// .icon-supermarket {
+//   &:before {
+//     content: $icon-supermarket; 
+//   }
+// }
+// .icon-hat-green {
+//   &:before {
+//     content: $icon-hat-green;     
+//     color: #82ca9b;
+//   }
+// }
+// .icon-midtown-icon .path1 {
+//   &:before {
+//     content: $icon-midtown-icon-path1;  
+//     color: rgb(42, 42, 42);
+//   }
+// }
+// .icon-midtown-icon .path2 {
+//   &:before {
+//     content: $icon-midtown-icon-path2;  
+//     margin-left: -1em;  
+//     color: rgb(255, 255, 255);
+//   }
+// }
+// .icon-plus {
+//   &:before {
+//     content: $icon-plus;     
+//     color: #fff;
+//   }
+// }
+// .icon-close {
+//   &:before {
+//     content: $icon-close; 
+//   }
+// }
+// .icon-graduation-hat {
+//   &:before {
+//     content: $icon-graduation-hat; 
+//   }
+// }
+

@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  body {
+    color: #706a6a;
+    background: #fff;
+    font-family: "Gotham";
+    font-weight: 400;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote {
+    font-weight: 400;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .container {
+    max-width: 1470px;
+    width: 100%;
+    padding-inline: 15px;
+    margin-inline: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }

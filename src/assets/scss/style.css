@@ -1,0 +1,193 @@
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../fonts/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-black";
+  src: url("../fonts/Gotham-Black.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-light";
+  src: url("../fonts/Gotham-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-thin";
+  src: url("../fonts/Gotham-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gotham-bold";
+  src: url("../fonts/Gotham-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+body {
+  color: #706a6a;
+  background: #fff;
+  font-family: "Gotham";
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote {
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1470px;
+  width: 100%;
+  padding-inline: 15px;
+  margin-inline: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: normal;
+}
+
+strong {
+  font-weight: normal;
+}
+
+.text-red {
+  color: #bb0100;
+}
+
+.text-white {
+  color: white;
+}
+
+.submit-button {
+  width: 271px;
+  height: 36px;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: #bb0100;
+  border-radius: 3px;
+}
+.submit-button:hover,
+.submit-button .email button:hover {
+  background: #fff;
+  color: #bb0100;
+  border: 1px solid #bb0100;
+  transition: background-color 0.3s ease;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.footer_wrap {
+  background-color: black;
+}
+
+.footer_email {
+  display: flex;
+  background-color: white;
+  padding: 1px;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+.footer_email .footer_input {
+  outline: none;
+  border: none;
+}
+
+.footer-logo_wrap {
+  padding-top: 31px;
+  width: 179px;
+}
+.footer-logo_wrap img {
+  height: 100%;
+  width: 100%;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.sign-up a {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sign-up a:hover {
+  color: #bb0100;
+}
+
+@media (min-width: 1200px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {
+    max-width: 1140px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .footer .info {
+    width: 100% !important;
+    text-align: center;
+  }
+  .footer .furniture, .footer .services {
+    width: 268px;
+  }
+  .footer .col {
+    width: 248px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .login {
+    margin: 20px 0px 0px 0px;
+    padding: 2rem;
+  }
+  .email button {
+    padding: 11px 12px;
+  }
+}/*# sourceMappingURL=style.css.map */
