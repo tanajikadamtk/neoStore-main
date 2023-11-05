@@ -68,7 +68,7 @@ const SignupCard = () => {
   return (
     <>
       <div className="signup">
-        <h2 className="login-text text-red">Sign Up</h2>
+        <h2 className="login-text ">Sign Up</h2>
         <form className="login-form" onSubmit={handleSubmit}>
           <div className="email-input">
             <label className="input-text">New Account Register</label>

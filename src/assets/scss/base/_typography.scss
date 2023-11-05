@@ -1,15 +1,19 @@
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6{
-	font-weight: normal;
-	// font-family:$EBReg;
-}
-strong{
-	font-weight: normal;
-	// font-family:$EBReg;
-}
-.text-red {
+.center {
+	text-align: center;
+  }
+  
+  .align-self-center {
+	align-self: center;
+  }
+  
+  .neoStore {
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	text-decoration: none;
 	color: $primary-color;
   }
-  .text-white {
-	color: white;
+  
+  .heading {
+	padding: 20px 0;
   }
+  

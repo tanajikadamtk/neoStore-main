@@ -1,39 +1,44 @@
+$font-family: "Gotham";
+$primary-color: #bb0100;
+$secondary-color: #fff;
+$text-color: #706a6a;
+$light-gray: #e1e1e1;
+
 html {
-    box-sizing: border-box;
-    font-size: 14px;
-  }
-  
-  body {
-    color: #706a6a;
-    background: #fff;
-    font-family: "Gotham";
-    font-weight: 400;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote {
-    font-weight: 400;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  .container {
-    max-width: 1470px;
-    width: 100%;
-    padding-inline: 15px;
-    margin-inline: auto;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: $font-family;
+}
+
+body {
+  color: $text-color;
+  background: $secondary-color;
+  font-family: $font-family;
+  font-weight: 400;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote {
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+button, input {
+  font-family: $font-family;
+}
+
+@font-face {
+  font-family: $font-family;
+  src: url("./fonts/Gotham-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

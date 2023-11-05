@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="row">
               <div className="col info">
                 <div className="neoStore">
-                  <a href="#" className="fw-600  text-decoration-none text-red">
+                  <a href="#" className="fw-600  text-decoration-none neoStore">
                     NeoSTORE
                   </a>
                 </div>

@@ -53,7 +53,7 @@ const LoginCard = () => {
   return (
     <>
       <div className="login">
-        <h2 className="login-text text-red">Log In</h2>
+        <h2 className="login-text ">Log In</h2>
         <form className="login-form" onSubmit={handleSubmit}>
           <div className="email-input">
             <label className="input-text">Email</label>

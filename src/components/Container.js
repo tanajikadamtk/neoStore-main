@@ -15,7 +15,7 @@ const Container = () => {
       <section className="main">
         <div className="container">
           <h1 className="heading ">
-            <a href="#" className="fw-600 neoStore text-decoration-none text-red">
+            <a href="#" className="fw-600 neoStore ">
               NeoSTORE
             </a>
           </h1>
