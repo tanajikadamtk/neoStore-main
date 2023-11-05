@@ -378,6 +378,7 @@ html {
     margin-top: 20px;
     display: flex;
   }
+  
   .top-bar,
   .bottom-bar {
     background: #bb0100;
@@ -420,6 +421,9 @@ html {
     }
     .footer .col {
       width: 248px;
+    }
+    .social-icons {
+      justify-content: center;
     }
   }
   @media only screen and (max-width: 950px) {
